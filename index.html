@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>余姚杨梅节</title>
+    <link rel="stylesheet" href="css/style.min.css"/>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/touch.js"></script>
+</head>
+<body>
+<div id="main"  class="main">
+    <!--音乐开关-->
+    <button class="btn_music "><i></i><audio loop="loop"  id="media" > <source loop="loop" src="music/music.mp3" type="audio/mpeg"></audio></button>
+    <!--音乐开关end-->
+    <!--加载页面-->
+    <div class="loading_page" style="display: block">
+        <p><img src="images/loading.gif" alt="" width=""/></br><span class="current">1%</span></p>
+    </div>
+    <!--加载页面end-->
+    <div class="page_box" >
+        <img class="icon_yun01" alt="" src="images/bg_yun.png"/>
+        <img class="icon_yun02" alt="" src="images/bg_yun.png"/>
+        <!--page-01-->
+        <div class="page_index" >
+            <img class="index_bottom" alt="" src="images/index_bottom_bg.png"/>
+            <div class="logo_box">
+                    <img src="images/logo1.png" alt="" class="logo"/>
+                    <img src="images/logo_text.png" alt="" class="logo_text"/>
+                    <div class="btn_open_box">
+                        <img src="images/small_ym.png" alt="" class="small_ym"/>
+                        <button class="btn_open"><img src="images/btn_open.png" alt=""/></button>
+                    </div>
+                </div>
+        </div>
+        <!--page-01-end-->
+        <div id="fullpage">
+            <!--page-02-->
+            <div class="page_yyjs section">
+                <img src="images/yyjs_bottom_bg.png" alt="" class="yyjs_bottom"/>
+                <div class="js_box">
+                    <p><img src="images/small_ym01.png" alt="" class="small_ym01"/></p>
+                    <img src="images/icon_yyjs.png" alt="" class="icon_yyjs"/>
+                    <img src="images/icon_yun.png" alt="" class="icon_yun"/>
+                </div>
+                <button class="btn_up"><img src="images/btn_up.png" alt=""/></button>
+            </div>
+            <!--page-02-end-->
+            <!--page-03-->
+            <div class="page_yljs section">
+                <div class="yljs_bottom_box">
+                    <img src="images/ymjs_bottom_bg.png" alt="" class="yljs_bottom"/>
+                </div>
+                <img src="images/yyjs_text.png" alt="" class="yyjs_text"/>
+                <button class="btn_up"><img src="images/btn_up.png" alt=""/></button>
+            </div>
+            <!--page-03-end-->
+            <!--page-04-->
+            <div class="page_ready section">
+                <img class="index_bottom" alt="" src="images/index_bottom_bg.png"/>
+                <div class="logo_box">
+                    <img src="images/statr_logo.png" alt="" class="statr_logo"/>
+                    <div class="btn_ready_box">
+                        <img src="images/small_ym.png" alt="" class="small_ym"/>
+                        <button class="btn_ready"><img src="images/btn_go.png" alt=""/></button>
+                    </div>
+                </div>
+            </div>
+            <!--page-04-end-->
+        </div>
+
+        <!--page-06-->
+        <div class="page_welcome">
+            <img class="welcome_bottom" alt="" src="images/welcome_bottom_bg.png"/>
+            <div class="logo_box">
+                <img src="images/welcome_logo.png" alt="" class="welcome_logo"/>
+            </div>
+            <div class="car">
+                <img class="tiegui" alt="" src="images/icon_tegui.png" width="100%" height="35"/>
+                <img class="dongche" alt="" src="images/huoche.png"/>
+            </div>
+
+            <img class="welcome_bottom_right" alt="" src="images/welcome_bottom_bgright.png"/>
+            <img class="wenzi" alt="" src="images/wenzi.png"/>
+
+        </div>
+        <!--page-06-end-->
+    </div>
+
+    <!--page5-->
+    <div class="page_hd_box" style="display: none">
+        <div class="page_hd">
+        <img src="images/hd_bottom_bg.png" alt="" class="hd_bottom_bg"/>
+        <img class="icon_yun01" alt="" src="images/icon_yun.png">
+
+        <div class="con_box">
+            <div class="text_con_box">
+                <img src="images/hd_bottom_bg1.png" alt="" class="hd_bottom_bg1"/>
+                <img class="icon_yun02" alt="" src="images/icon_yun.png">
+                <div id="text_con" class="walking0">
+                    <div class="icon_ym"></div>
+                    <ul class="text_con_ul">
+                        <li class="item1" style="">
+                            <div class="text_right" >
+                                <img src="images/duihua01.png" alt="" class="duihua01"/>
+                                <img src="images/hd_text01.png" alt="" class="hd_text01"/>
+                            </div>
+                        </li>
+                        <li class="item2">
+                            <div class="text_right">
+                                <img src="images/duihua01.png" alt="" class="duihua01"/>
+                                <img src="images/hd_text02.png" alt="" class="hd_text02"/>
+                            </div>
+                        </li>
+                        <li class="item3">
+                            <div class="text_left">
+                                <img src="images/duihua02.png" alt="" class="duihua02"/>
+                                <img src="images/hd_text03.png" alt="" class="hd_text03"/>
+                            </div>
+                        </li>
+                        <li class="item4">
+                            <div class="text_right">
+                                <img src="images/duihua01.png" alt="" class="duihua01"/>
+                                <img src="images/hd_text04.png" alt="" class="hd_text04"/>
+                            </div>
+                        </li>
+                        <li class="item5">
+                            <div class="text_left">
+                                <img src="images/duihua02.png" alt="" class="duihua02"/>
+                                <img src="images/hd_text05.png" alt="" class="hd_text05"/>
+                            </div>
+                        </li>
+                        <li class="item6">
+                            <div class="text_left">
+                                <img src="images/duihua02.png" alt="" class="duihua02"/>
+                                <img src="images/hd_text06.png" alt="" class="hd_text06"/>
+                            </div>
+                        </li>
+                        <li class="item7">
+                            <div class="text_right">
+                                <img src="images/duihua01.png" alt="" class="duihua01"/>
+                                <img src="images/hd_text07.png" alt="" class="hd_text07"/>
+                            </div>
+                        </li>
+                        <li class="item8">
+                            <div class="text_left">
+                                <img src="images/duihua02.png" alt="" class="duihua02"/>
+                                <img src="images/hd_text08.png" alt="" class="hd_text08"/>
+                            </div>
+                        </li>
+                        <li class="item9">
+                            <div class="text_right">
+                                <img src="images/duihua01.png" alt="" class="duihua01"/>
+                                <img src="images/hd_text09.png" alt="" class="hd_text09"/>
+                            </div>
+                        </li>
+                        <li class="item10">
+                            <div class="text_left">
+                                <img src="images/duihua02.png" alt="" class="duihua02"/>
+                                <img src="images/hd_text10.png" alt="" class="hd_text10"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <button class="btn_up" id="btn_next"><img src="images/btn_up.png" alt=""/>
+            <p>点击下页</p>
+        </button>
+    </div>
+    </div>
+    <!--page5-end-->
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
